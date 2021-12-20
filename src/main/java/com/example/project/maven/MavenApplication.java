@@ -17,5 +17,10 @@ public class MavenApplication {
 	public String print() {
 		return "Simple Maven Project";
 	}
+	
+	@GetMapping("/sayHello")
+	public String printSayHello() {
+		return "Hello!";
+	}
 
 }
